@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A27057F3-DCEA-4DF0-9BA5-01ACD3411124}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sample</RootNamespace>
+    <AssemblyName>Sample</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountList.Designer.cs">
+      <DependentUpon>AccountList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCategory.Designer.cs">
+      <DependentUpon>AddCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeSelector.Designer.cs">
+      <DependentUpon>CodeSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrMargin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrMargin.Designer.cs">
+      <DependentUpon>CurrMargin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrPrice.Designer.cs">
+      <DependentUpon>CurrPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenOrds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenOrds.Designer.cs">
+      <DependentUpon>OpenOrds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PriceSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PriceSelector.Designer.cs">
+      <DependentUpon>PriceSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryClass\CFOAT00100.cs" />
+    <Compile Include="QueryClass\CFOAT00200.cs" />
+    <Compile Include="QueryClass\CFOAT00300.cs" />
+    <Compile Include="QueryClass\t2101.cs" />
+    <Compile Include="RealClass\OMG.cs" />
+    <Compile Include="RealClass\FC0.cs" />
+    <Compile Include="RealClass\OC0.cs" />
+    <Compile Include="RealClass\OH0.cs" />
+    <Compile Include="OptBoardSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptBoardSetting.Designer.cs">
+      <DependentUpon>OptBoardSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionBoard.Designer.cs">
+      <DependentUpon>OptionBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealClass\FH0.cs" />
+    <Compile Include="Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryClass\CFOBQ10500.cs" />
+    <Compile Include="CurrPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrPosition.Designer.cs">
+      <DependentUpon>CurrPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryClass\CACBQ21900.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="QueryClass\Query.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="QueryClass\t0441.cs" />
+    <Compile Include="QueryClass\t9943.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="QueryClass\t9944.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RealClass\C01.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RealClass\H01.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RealClass\O01.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RealClass\Real.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="QueryClass\t0434.cs" />
+    <Compile Include="QueryClass\t2105.cs" />
+    <Compile Include="QueryClass\t2301.cs" />
+    <Compile Include="TradeHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TradeHistory.Designer.cs">
+      <DependentUpon>TradeHistory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccountList.resx">
+      <DependentUpon>AccountList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCategory.resx">
+      <DependentUpon>AddCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeSelector.resx">
+      <DependentUpon>CodeSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrPosition.resx">
+      <DependentUpon>CurrPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrPrice.resx">
+      <DependentUpon>CurrPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrMargin.resx">
+      <DependentUpon>CurrMargin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenOrds.resx">
+      <DependentUpon>OpenOrds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptBoardSetting.resx">
+      <DependentUpon>OptBoardSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionBoard.resx">
+      <DependentUpon>OptionBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriceSelector.resx">
+      <DependentUpon>PriceSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TradeHistory.resx">
+      <DependentUpon>TradeHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="XA_DATASETLib">
+      <Guid>{CAA15009-CF22-4D1D-AF40-093DBC5A6A0F}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="XA_SESSIONLib">
+      <Guid>{F5CC65C5-2965-451B-A6C4-CBC7B8B4AE08}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

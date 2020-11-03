@@ -1,0 +1,13 @@
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\bin\Debug\xingapi_bridge.exe.config
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\bin\Debug\xingapi_bridge.exe
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\bin\Debug\xingapi_bridge.pdb
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\obj\x86\Debug\xingapi_bridge.csprojAssemblyReference.cache
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\obj\x86\Debug\xingapi_bridge.Properties.Resources.resources
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\obj\x86\Debug\xingapi_bridge.csproj.GenerateResource.cache
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\obj\x86\Debug\xingapi_bridge.csproj.CoreCompileInputs.cache
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\obj\x86\Debug\xingapi_bridge.exe
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\obj\x86\Debug\xingapi_bridge.pdb
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\obj\x86\Debug\Interop.XA_DATASETLib.dll
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\obj\x86\Debug\Interop.XA_SESSIONLib.dll
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\obj\x86\Debug\xingapi_bridge.csproj.ResolveComReference.cache
+D:\xingapi_csharp\xingapi_bridge\xingapi_bridge\obj\x86\Debug\xingapi_bridge.Form1.resources
